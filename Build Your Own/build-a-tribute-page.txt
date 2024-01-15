@@ -1,0 +1,35 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Tribute Page" />
+    <title>Michael Jackson</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+<main id="main">
+  <h1 id="title">Michael Jackson</h1>
+  <p id="tribute-info">El rey del pop</p>
+  <div id="img-div">
+    <img id="image" src="https://img2.rtve.es/i/?w=1600&i=1624459276514.jpg"/>
+    <figcaption id="img-caption">12 años sin Michael Jackson, eterno rey del pop</figcaption>
+    <p>Si quieres saber más de Michael Jackson, puedes leer su biografía en <a id="tribute-link" target="_blank" href="https://es.wikipedia.org/wiki/Michael_Jackson">Wikipedia</a>.</p>
+  </div>
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+** end of undefined **
+

@@ -1,0 +1,47 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+	  <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+      <label id="number-label">Age: <input id="number" type="number" placeholder="Enter your age" required min="10" max="100"></label>
+      <label>Which option best describes your current role?
+      <select id="dropdown">
+        <option value="">Select current role</option>
+        <option value="1">Student</option>
+        <option value="2">Full time job</option>
+        <option value="3">Full time learner</option>
+        <option value="4">Prefer not to say</option>
+        <option value="5">Other</option>
+      </select>
+      </label>
+      <label>Would you recommend us?</label>
+      <label><input type="radio" name="option" value="yes"/> Yes</label>
+        <label><input type="radio" name="option" value="no"/> No</label>
+        <label>What do you like? (Check all that apply)</label>
+        <input type="checkbox" value="web-developer" checked> <label >Web Develop</label>
+        <input type="checkbox" value="data-analyze"> <label>Analyze data</label>
+         <label>Any comments?:
+        <textarea name="comment" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+			  </label>
+        <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
